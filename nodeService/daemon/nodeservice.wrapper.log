@@ -1,0 +1,2 @@
+2018-12-12 10:41:47 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js" --file D:\nodeExpressService\nodeService\app --log "NodeService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-12-12 10:41:47 - Started 21436

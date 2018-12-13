@@ -1,0 +1,4 @@
+http server is listening at 8000
+https server is listening at 8081
+[0mGET / [32m200 [0m14.859 ms - 18[0m
+[0mGET /favicon.ico [33m404 [0m7647.197 ms - 1044[0m
