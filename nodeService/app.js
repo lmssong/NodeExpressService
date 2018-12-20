@@ -17,8 +17,8 @@ var app = express();
  * Create HTTP server.
  */
 var server = http.createServer(app);
-server.listen(8000);
-console.log('http server is listening at 8000');
+server.listen(8090);
+console.log('http server is listening at 8090');
 
 /**
  * Crate HTTPS Server
@@ -29,8 +29,8 @@ var certificate = fs.readFileSync('/nodeExpressService/nodeService/1_lmssong.cn_
 
 var credentials = { key:privatekey, cert:certificate };
 var httpsServer = https.createServer(credentials,app);
-httpsServer.listen(80);
-console.log('https server is listening at 80');
+httpsServer.listen(8091);
+console.log('https server is listening at 8091');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

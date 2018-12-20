@@ -1,2 +1,31 @@
 2018-12-12 10:41:47 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js" --file D:\nodeExpressService\nodeService\app --log "NodeService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2018-12-12 10:41:47 - Started 21436
+2018-12-13 19:12:28 - Stopping nodeservice.exe
+2018-12-13 19:12:29 - ProcessKill 21436
+2018-12-13 19:12:48 - Shutdown exception
+Message:“System.Management.ManagementPath”的类型初始值设定项引发异常。
+Stacktrace:   在 System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   在 System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2018-12-13 19:15:31 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js" --file D:\nodeExpressService\nodeService\app --log "NodeService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-12-13 19:15:33 - Started 7856
+2018-12-13 19:15:37 - Stopping nodeservice.exe
+2018-12-13 19:15:37 - ProcessKill 7856
+2018-12-13 19:15:57 - Shutdown exception
+Message:系统正在关机。 (异常来自 HRESULT:0x8007045B)
+Stacktrace:   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2018-12-13 19:17:28 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js" --file D:\nodeExpressService\nodeService\app --log "NodeService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-12-13 19:17:30 - Started 8008
+2018-12-18 09:08:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js" --file D:\nodeExpressService\nodeService\app --log "NodeService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-12-18 09:08:26 - Started 7924

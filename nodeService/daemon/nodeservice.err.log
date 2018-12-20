@@ -1,0 +1,72 @@
+internal/child_process.js:340
+    throw errnoException(err, 'spawn');
+    ^
+
+Error: spawn EROFS
+    at _errnoException (util.js:1003:13)
+    at ChildProcess.spawn (internal/child_process.js:340:11)
+    at exports.spawn (child_process.js:499:9)
+    at Object.exports.execFile (child_process.js:209:15)
+    at exports.exec (child_process.js:139:18)
+    at Object.elevate (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\binaries.js:44:5)
+    at write (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\eventlog.js:61:10)
+    at logger.value [as info] (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\eventlog.js:128:9)
+    at launch (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js:136:18)
+    at Object.<anonymous> (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js:188:1)
+events.js:137
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES 0.0.0.0:80
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1350:19)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1496:7)
+    at Object.<anonymous> (D:\nodeExpressService\nodeService\app.js:32:13)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+events.js:137
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES 0.0.0.0:80
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1350:19)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1496:7)
+    at Object.<anonymous> (D:\nodeExpressService\nodeService\app.js:32:13)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+events.js:137
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES 0.0.0.0:80
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1350:19)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1496:7)
+    at Object.<anonymous> (D:\nodeExpressService\nodeService\app.js:32:13)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:160:13)
+    at process.exit (internal/process.js:147:15)
+    at monitor (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_global\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:160:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:12)
